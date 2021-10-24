@@ -1,0 +1,314 @@
+<!DOCTYPE html> 
+<html lang="FR"> 
+<head> 
+	<title>Hardware&amp;Co</title> 
+	<meta charset="utf-8" />
+	<meta name="keywords" content="hardware,composants,base,ordinateur,fonctionnemment ordinateur,comment,quoi,processeur,carte graphique ,RAM,carte-mère,alimentation,boitier,ventilateur,ventirad,watercooling,SSD,HDD,nvme,carte-réseau,carte d'extension,pâte thermique,câbles d'alimentation,français,Hardware&amp;Co,aide,apprendre,upem,informatique,geek" />
+	<meta name="author" content="Amalaric Le Forestier" />
+	<link rel="icon" href="images/iconeSite.ico" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+
+<body class="sujet">
+
+<!-- Header -->
+<div class="header">
+	<table class="title-table">
+		<tr>
+			<td class="logoUPEM"><img src="images/logo_upem.png" alt="UPEM" /></td>
+			<td class="title"><h1><a href="index.html"><u>Hardware&amp;Co</u></a></h1></td>
+			<td class="logoSite"><img src="images/socket_mobo.jpg" alt="socket" /></td>
+		</tr>
+	</table>
+	<!-- Menu de navigation -->
+	<table class="menu">
+		<tr>
+			<td><a href="intro.html">Introduction aux composants de base<br />d'un ordinateur</a></td>
+			<td><a class="page-actuelle" href="sujet.html">En apprendre plus sur<br />le hardware</a></td>
+			<td><a href="auteur.html">Découvrir l'auteur</a></td>
+			<td><a href="renseignements.html">Demande de renseignements</a></td>
+			<td><a href="mentions_legales.html">Mentions légales</a></td>
+		</tr>
+	</table>
+</div>
+
+<!-- Corps de page -->
+<div>
+	<div>
+		<h2><u>En apprendre plus sur le hardware</u></h2>
+	</div>
+	<div class="content">
+		<h3>Connaître les principaux composants d'un ordinateur</h3><br />
+		<div class="sommaire">
+			<br />
+			<u>Sommaire</u><br />
+			<ol>
+				<li><a href="#1">La carte-mère</a></li><br />
+				<li><a href="#2">Le processeur</a></li><br />
+				<li><a href="#3">La RAM</a></li><br />
+				<li><a href="#4">La carte graphique</a></li><br />
+				<li><a href="#5">Les disques durs</a></li><br />
+				<li><a href="#6">L'alimentation</a></li><br />
+			</ol>
+		</div>
+		<br /><br />
+		<img src="images/schema_mobo.png" alt="Schéma de fonctionnement" class="schema-mobo" />
+		<div class="clear"></div>
+
+		<hr />
+		<br />
+
+		<div class="cadre-partie">
+			<div class="contenu-partie">
+				<img class="image-mobo" src="images/carte_mere.jpg" alt="Carte mère" />
+				<h4 id="1"><u>1) La carte-mère</u></h4>			
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					La carte mère est <i>l'élément principal</i> de votre ordinateur.<br />
+					Son rôle est de <i>relier</i> chaque composant entre eux.<br /><br />
+					La plupart des composants se "branchent" directement sur la carte-mère, à un endroit bien déterminé.<br />
+					La carte-mère se fixe dans le boîtier à la verticale.<br />
+					Elle gère également le son, la connexion au réseau filaire, les branchements USB, les disques durs etc..
+				</p>
+				<br />
+				<br />
+				<p class="sous-titre">
+					b) <u>Comment fonctionne-t-elle?</u>
+				</p>
+				<p>
+					Tout d'abord, pour fonctionner, la carte-mère doit être branchée à <i>l'alimentation</i> afin de recevoir de l'enérgie et pouvoir accomplir son rôle. Pour les plus intéréssés : elle se branche avec un câble 24 pins, qui est le plus gros de tous les câbles !<br /><br />
+					Voici comment elle fonctionne, lorsque l'utilisateur demande d'ouvrir un logiciel par exemple :
+					<ul>
+						<li>Elle <i>centralise</i> toutes les données;</li>
+						<li>Les envoie au processeur, qui va les <i>traiter</i>;</li>
+						<li>Le processeur <i>demande</i> au disque dur de lire les données du logiciel;</li>
+						<li>Le disque dur <i>renvoie</i> les données au processeur;</li>
+						<li>Ce dernier les <i>stock</i> d'abord dans la RAM;</li>
+						<li>Puis il les envoie à la carte graphique;</li>
+						<li>Cette dernière va convertir les données en une image qui sera transmise à l'écran.</li>
+					</ul>
+				<p class="source">
+					Source : <a href="https://sites.google.com/site/belwatech2016/syntheses/a-quoi-sert-la-carte-mere">BelwaTech</a>
+				</p>
+				<br />
+				<p class="sous-titre">
+					c) <u>Ses caractéristiques</u>
+					<img class="image-format-mobo" src="images/format-ATX.jpg" alt="Formats ATX" />
+				</p>
+				<p>
+					Comme vous pouvez le voir sur l'image ci-contre, la carte-mère est composé de pleins de parties différentes.<br />
+					Mais ce n'est que les principales! Il en existe une multitude d'autres !<br /><br />
+					Première chose à savoir : toutes les cartes-mères n'ont pas la même taille.<br />
+					Attardons-nous seulement sur les formats les plus répandus, les voici classés du plus grand et plus petit :
+					<ol>
+						<li>Format E-ATX</li>
+						<li>Format ATX</li>
+						<li>Format micro-ATX</li>
+						<li>Format mini-ITX</li>
+					</ol>
+					Le format E-ATX étant particulièrement spécial, car il comporte deux <i>sockets</i> et 8 ports RAM !<br /><br />
+					Une carte-mère est choisie en fonction de son <i>socket</i>. C'est l'endroit sur lequel on va placer le processeur, car le socket permet de l'alimenter et de permettre la connexion avec les autres composants.<br />
+					Il est propre à chaque série de processeur, car ces derniers ont un nombre de <i>broches</i> différentes, sont de génération différente etc..<br>
+					Faites donc attention à choisir une carte mère ayant un socket compatible avec votre processeur !<br /><br />
+					A côté du socket se trouve les <i>ports RAM</i>. Ils ont pour fonction d'accueillir les <i>barettes de RAM</i> et de les relier à la carte-mère, afin que le processeur puisse les utiliser.<br /><br />
+					Plus bas, se trouve les <i>ports PCI-E</i>. Ils servent principalement à connecter la (ou les) <i>carte.s graphique.s</i> à la carte mère, ou à connecter des cartes d'extensions, mais nous n'allons pas nous attarder sur ce dernier mot mystère.<br /><br />
+					Mais.. Un PC ne peut pas démarrer sans <i>disque-dur</i>, n'est-ce pas ?<br>
+					C'est là que rentrent en jeu les <i>ports SATA</i> et <i>M.2</i>.
+					Le <i>port SATA</i> sert à relier un <i>HDD</i> ou <i>SSD</i> (disque dur) à la carte-mère à l'aide d'un câble SATA.
+					Le <i>port M.2</i> (ou NVMe) sert à connecter un <i>disque dur M.2</i> à la carte-mère.
+					Nous allons voir la différence entre ceux deux disques durs plus tard, référez-vous au sommaire et cliquez sur la partie "Les disques durs" si cela vous intéresse !<br /><br />
+					En haut à gauche de la carte-mère se situe les <i>connections</i>.<br />
+					Cette partie contient de multiples ports, tel que le USB, HDMI, DVI, jack, RJ-45 etc.. afin de connecter nos périphériques comme les écrans, claviers, souris, casques etc..<br /><br />
+					Pour finir avec la carte-mère, vous n'êtes sans savoir que cette dernière est fabriquée par une marque.<br />
+					Il en existe plusieurs sur le marché, tel que Gigabyte, Asus, MSI etc.. Chaque marque aura un <i>BIOS</i> différent.
+			</div>	
+		</div>
+		<br />
+		<div class="cadre-partie">
+			<div class="contenu-partie">
+				<img class="image-processeur" src="images/proco.png" alt="Processeur" />
+				<h4 id="2"><u>2) Le processeur</u></h4>			
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					En quelque sorte, le processeur est le <i>cerveau</i> de l'ordinateur.<br />
+					Comme nous l'avons vu juste avant, lorsque l'utilisateur veut ouvrir un logiciel, le <i>CPU</i> va s'organiser pour faire passer les données entre chaque composant. Il fait également tous les calculs dont l'ordinateur à besoin.
+				</p>
+				<br />
+				<br />
+				<p class="sous-titre">
+					b) <u>Ses caractéristiques</u>
+				</p>
+				<p>
+					Un processeur est choisi selon 4 critères :
+					<ul>
+						<li>Sa fréquence (en Hz)</li>
+						<li>Son nombre de coeurs</li>
+						<li>Son cache</li>
+						<li>Sa marque</li>
+					</ul>
+				<p>
+					La <i>fréquence</i> (fréquence d'horloge) d'un processeur quantifie la rapidité à laquelle ce dernier peut traiter les instructions qu'on lui donne.<br />
+					Plus ce nombre élevé, plus un processeur sera puissant.<br />
+					Un processeur actuel tourne entre 2.5GHz et 4GHz.<br />
+				</p>
+				<p>
+					Mais attention! Un CPU avec une plus haute fréquence qu'un autre ne signifie pas forcément qu'il sera plus rapide.<br />
+					Car les <i>coeur</i> rentrent en jeu!<br />
+					Il faut savoir qu'un CPU est divisé par plusieurs coeurs (on dit alors qu'il est multicoeurs), qui vont traiter les données acquises.<br />
+					Un <i>coeur</i> tourne à une fréquence d'horloge donnée, qui est celle que l'on a vu précédemment. Lorsque l'on dit qu'un processeur tourne à 3.6GHz, cela signifie donc que chaque coeur du CPU a une fréquence d'horloge de 3.6GHz.<br />
+					Si on vulgarise, les coeurs permettent de diviser la quantité de tâches attribuées à un processeur afin qu'il les traite plus rapidement. <i>Diviser pour mieux reigner !</i><br />
+					Plus un processeur possède de coeurs, plus il sera performant.
+					Si cela vous intéresse, vous pouvez également vous renseigner sur les <a class="lien" href="https://qastack.fr/superuser/329904/what-are-threads-and-what-do-they-do-in-the-processor">threads d'un processeur</a>.
+				</p>
+				<p>
+					Le <i>cache</i> d'un CPU est <cite>"une antémémoire matérielle utilisée par l'unité centrale de traitement d'un ordinateur pour réduire le coût moyen de l’accès aux données de la mémoire principale", Wikipedia.</cite><br />
+					Traduction: c'est un endroit dans lequel le processeur va stocker des données importantes dont il a besoin pour ses calculs.
+				</p>
+				<p>
+					Finalement, la <i>marque</i>. C'est un paramètre important à prendre en compte.<br />
+					Il existe 2 marques sur le marché : AMD et Intel, chacun faisant des processeurs avec une <i>architecture</i>, <i>finesse de gravure</i> (dont on oubliera le retard du côté d'Intel), <i>socket</i> etc.. différents.<br />
+					faites bien attention à la marque que vous choisirez, car il faudra penser à acheter une carte-mère compatible !
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="cadre-partie">
+			<div class="contenu-partie">
+				<img class="image-ram" src="images/ram.png" alt="RAM" />
+				<h4 id="3"><u>3) La RAM</u></h4>
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					Le rôle de la RAM est tout simplement de stocker provisoirement les données qui vont être traitées par le CPU.
+				</p>
+				<br />
+				<br />
+				<p class="sous-titre">
+					b) <u>Ses caractéristiques</u>
+				</p>
+				<p>
+					Avant tout, sachez que la RAM dans un PC portable et un PC fixe sont différentes : elles n'ont pas la même taille. La première est appelée SODIMM (plus compacte), la deuxième DIMM (taille normale).<br />
+					Lorsque vous voudrez acheter de la RAM, vous verrez plusieurs caractéristiques, comme par exmeple "16Go DDR4, 3200MHz CAS16".<br /><br />
+					Le premier paramètre est la <i>capacité</i> (exprimée en Go) de la barrette de RAM. Plus celle-ci est élevée, plus elle pourra stocker de données. C'est donc mieux d'en avoir beaucoup. La quantitée requise / recommandée dépendra de l'utilsation de votre PC, mais la moyenne est aujourd'hui 8Go.<br /><br />
+					Le nombre suivit de "MHz" indique la <i>fréquence d'horloge</i> de la barrette, soit la vitesse à laquelle elle exécutera sa tâche.<br /><br />
+					Vient ensuite le <i>CAS</i> (ou CL), acronyme de Column Address Strobe, qui quantifie la latence mémoire. Soit le temps que la mémoire prendra à retrouvée le tirroir dans laquelle la RAM a stocké la donnée.<br />
+					Ce paramètre et peu connu / rarement prit en compte, mais il est très important !! De la RAM à 2400MHz CAS12 aura des performances équivalentes à de la 3200MHz CAS 16 ! Tandis que de la RAM à 3800MHz CAS20 sera très lente.<br /><br />
+					Voir tableau ci-contre.<br />
+					<img class="image-ram-latence" src="images/tableau_cas.png" alt="Tableau latences" />
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="cadre-partie">
+			<div class="contenu-partie">
+				<h4 id="4"><u>4) La carte-graphique</u></h4>
+				<img class="image-gpu" src="images/gpu.png" alt="Carte-graphique" />
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					Le rôle de la carte graphique est d'afficher une image à l'écran.
+				</p>
+				<br />
+				
+				<br />
+				<p class="sous-titre">
+					b) <u>Ses caractéristiques</u>
+				</p>
+				<p>
+					La qualité de l'image que produira la carte grpahique à l'écran dépendra de 2 facteurs principaux:
+					<ul>
+						<li>Sa fréquence (en Hz)</li>
+						<li>Sa mémoire (en Go)</li>
+					</ul>
+					La <i>fréquence</i>, mesurée en Hertz (Hz), est l'unité de mesure de la vitesse à laquelle sont effectués les calculs pour la carte graphique, comme pour le processeur ou la RAM.<br />
+					Plus la fréquence est élevée, mieux c'est.<br /><br />
+					La <i>mémoire</i> est un élément très important et souvent négligé. Elle va permettre au GPU de stocker les textures les plus lourdes afin de les traiter ultérieurement ou y ajouter des effets afin de rendre votre jeu plus beau ! Pour une utilisation de bureautique, sans logiciel de 3D ou de montage, une carte-graphique bas de gamme suffit. (Voir même ne pas avoir de carte-graphique, mais avoir un processeur ayant une partie graphique intégrée).<br />
+					Pour le jeu, 8Go de mémoire est recommandé.
+			</div>
+		</div>
+		<br />
+		<div class="cadre-partie">
+			<div class="contenu-partie">			
+				<h4 id="5"><u>5) Les disques durs</u></h4>
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					Les disques durs servent de stockage permanent aux applications, jeux, images, etc..<br />
+					Les jeux ou logiciels peuvent peser lourd, c'est pourquoi il est nécéssaire d'avoir des disques durs avec de gros espaces de stockage pour certaines utilisations.
+					<img class="image-disquedur" src="images/hdd_ssd.jpg" alt="SSD / HDD" />
+				</p>
+				<br />
+				<br />
+				<p class="sous-titre">
+					b) <u>Ses caractéristiques</u>
+				</p>
+				<p>
+					Il existe 4 types de disques durs :
+					<ul>
+						<li>Les HDD</li>
+						<li>Les SSD</li>
+						<li>Les SSHD</li>
+						<li>Les SSD nVME (ou M.2)</li>
+					</ul>
+					Les plus répandus étant les SSD et les HDD, nous n'allons nous pencher que sur ceux là.<br /><br />
+					Les <i>HDD</i> (Hard Disk Drive) sont constitués d'un ou plusieurs disques mécaniques qui lisent et écrivent des informations sur le disque.<br />
+					Leur avantage est leur faible coût pour la quantité de stockage qu'ils fournissent. En contrepartie, ils sont plus lent à écrire / lire une information.<br />
+					Ce type de disque dur est caractérisé par les TPM (Tours Par Minutes) qui nous indique le nombre de tours que le disque mécanique va faire par minutes. Plus ce nombre est élevé, plus il écrira / lira des informations rapidement.<br />
+
+					Quant à eux, les <i>SSD</i> (Solid State Drive) ne sont pas mécaniques car ils utilisent une mémoire appelée "flash".<br />
+					Ils sont donc beaucoup plus rapides en lecture / écriture que les HDD. En contrepartie, ils sont beaucoup plus cher que les HDD pour la même quantité de stockage.<br />
+					Ce type de disque dur est caractérisé par une vitesse en Mo/s, qui quantifie la quantité de données que le disque peut écrire / lire par seconde.<br /><br />
+					Enfin, tous les disques durs ont une quantité de stockage définit, allant de 120Go jusqu'a parfois 18To (18 000Go) !
+				<p class="source">
+					Source : <a href="https://blog.touchedeclavier.com/differences-entre-disque-dur-hdd-ssd/">ToucheDeClavier</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="cadre-partie">
+			<div class="contenu-partie">
+				<h4 id="6"><u>6) L'alimentation</u></h4>
+				<p class="sous-titre">
+					a) <u>Son rôle</u>
+				</p>
+				<p>
+					<img class="image-alimentation" src="images/alim.png" alt="Alimentation" />
+					Le rôle de l'alimentation est de fournir l'ordinateur en énergie eléctrique.<br />
+					Pour se faire, il faut brancher l'alimentation à une prise avec un câble d'alimentation, puis brancher quelques composants ainsi que le front pannel avec les câbles aux endroits correspondant.
+					L'alimentation se place à un endroit nommé "cage d'alimentation" dans l'ordinateur, à l'écart des autres composants, afin d'éviter la chauffe.
+				</p>
+				<br />
+				<br />
+				<p class="sous-titre">
+					b) <u>Ses caractéristiques</u>
+				</p>
+				<p>
+					La puissance délivrée par une alimentation est calculée en Watts (W).
+					La puissance nécéssaire à un PC pour fonctionner correctement varie en fonction de la consommation de chaque composants, et du nombre de ventilateurs, écrans etc..<br />
+					Il n'est pas forcément recommandé d'avoir une alimentation fournissant plus d'énergie que l'ordinateur en a besoin, alors pensez bien à calculer la consommation théorique de votre ordinateur sur des sites avant d'acheter une alimentation !<br /><br />
+					Une alimentation est donc caractérisée par une puissance, mais également une certification !<br />
+					Il en existe plusieurs, et elles nous indiquent à quel point la puissance de l'alimentation écrite sur la papier correspond à sa puissance réelle. Observez par vous même les différentes certifications et leurs valeurs dans le tableau suivant :<br />
+					<img class="image-alimentation-certif" src="images/certifications_alim.png" alt="Certifications alimentation" /><br />
+					Vous l'aurez compris, la certification fournissant un meilleur gage de qualité et indiquant que l'on se rapproche le plus de la puissance écrite sur le papier est la 80+ Titanium.
+				</p>
+			</div>
+		</div>
+		<br />
+	</div>
+</div>
+
+<!-- Retour haut de page -->
+<div class="retourHdP">
+	<a href="#"><img src="images/fleche_haut.jpg" alt="Flèche retour haut de page" /></a>
+</div>
+
+</body>
+</html>

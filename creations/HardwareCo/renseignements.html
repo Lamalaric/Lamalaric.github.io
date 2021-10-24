@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html lang="FR"> 
+<head> 
+	<title>Hardware&amp;Co</title> 
+	<meta charset="utf-8" />
+	<meta name="keywords" content="hardware,composants,base,ordinateur,fonctionnemment ordinateur,comment,quoi,processeur,carte graphique ,RAM,carte-mère,alimentation,boitier,ventilateur,ventirad,watercooling,SSD,HDD,nvme,carte-réseau,carte d'extension,pâte thermique,câbles d'alimentation,français,Hardware&amp;Co,aide,apprendre,upem,informatique,geek" />
+	<meta name="author" content="Amalaric Le Forestier" />
+	<link rel="icon" href="images/iconeSite.ico" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+
+<body class="renseignements">
+
+<!-- Header -->
+<div class="header">
+	<table class="title-table">
+		<tr>
+			<td class="logoUPEM"><img src="images/logo_upem.png" alt="UPEM" /></td>
+			<td class="title"><h1><a href="index.html"><u>Hardware&amp;Co</u></a></h1></td>
+			<td class="logoSite"><img src="images/socket_mobo.jpg" alt="socket" /></td>
+		</tr>
+	</table>
+	<!-- Menu de navigation -->
+	<table class="menu">
+		<tr>
+			<td><a href="intro.html">Introduction aux composants de base<br />d'un ordinateur</a></td>
+			<td><a href="sujet.html">En apprendre plus sur<br />le hardware</a></td>
+			<td><a href="auteur.html">Découvrir l'auteur</a></td>
+			<td><a class="page-actuelle" href="renseignements.html">Demande de renseignements</a></td>
+			<td><a href="mentions_legales.html">Mentions légales</a></td>
+		</tr>
+	</table>
+</div>
+
+<!-- Corps de page -->
+<div>
+	<h2><u>Demande de renseignements</u></h2>
+
+	<!-- Formulaire -->
+	<div class="formulaire">
+		<p>
+			<u>Veuillez renseignez quelques informations afin d'envoyer votre demande :</u><br />
+			(ces informations nous serons utiles pour pouvroir vous recontacter et vous identifier.)
+		</p>
+		<p class="texte-champ-requis">* : champ obligatoire</p>
+		<br />
+		<fieldset>
+			<legend> Informations personnelles </legend>
+			<form action="#" method="get">
+				<label for="nom">*Nom: </label>
+				<input type="text" name="nom" id="nom" required />
+
+				<label for="prenom">*Prénom: </label>
+				<input type="text" name="prenom" id="prenom" required /><br /><br />
+
+				<label for="dateN">Date de naissance :</label>
+				<input type="date" name="dateN" id="dateN" />
+
+				<label for="mail">*Adresse mail: </label>
+				<input type="email" name="mail" id="mail" required /><br /><br />
+
+				*Genre: 
+				<input type="radio" name="sexe" id="homme" />
+				<label for="homme"> Homme</label>
+				<input type="radio" name="sexe" id="femme" />
+				<label for="femme"> Femme</label>
+				<input type="radio" name="sexe" id="nonB" />
+				<label for="nonB"> Non binaire</label>
+			</form>
+		</fieldset>
+		<br />
+		<fieldset>
+			<legend>Requête</legend>
+			<form>
+				<label for="sujet">*Sujet de la demande:</label><br />
+				<input type="text" name="sujet" id="sujet" size="35" required><br /><br />
+
+				<label for="demande">*Décrivez votre demande de renseignement:</label><br />
+				<textarea name="demande" id="demande" required></textarea>
+				<br /><br />
+	
+				<input type="submit" name="envoyer" onclick="alert('Votre demande de renseignement a bien été envoyée.')" />
+				<input type="reset" name="reset" /><br />
+				<input type="checkbox" name="anonyme" id="anonyme" checked />
+				<label for="anonyme"> Envoyer en anonyme</label><br />
+				<input type="checkbox" name="repMail" id="repMail" checked />
+				<label for="repMail"> Recevoir une réponse par mail</label>
+			</form>
+		</fieldset>	
+	</div>
+
+	<!-- Tableau -->
+	<div class="historique">
+		<table>
+			<caption>Historique des requêtes</caption>
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Sujet</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>31/12/2023</td>
+					<td>Problème avec mon Intel i15 - 98999K</td>
+				</tr>
+				<tr>
+					<td>17/11/2020</td>
+					<td>Ordinateur lent</td>
+				</tr>
+				<tr>
+					<td>25/09/2020</td>
+					<td>Carte mère socket AM4</td>
+				</tr>
+				<tr>
+					<td>25/09/2020</td>
+					<td>Problème carte-mère </td>
+				</tr>
+				<tr>
+					<td>22/09/2020</td>
+					<td>Disque dur non reconnu</td>
+				</tr>
+				<tr>
+					<td>02/09/2020</td>
+					<td>Puis-je overclocker mon écran ?</td>
+				</tr>
+				<tr>
+					<td>16/08/2020</td>
+					<td>Quel est votre marque de shampoing?</td>
+				</tr>
+				<tr>
+					<td>01/08/2020</td>
+					<td>Processeur qui chauffe trop</td>
+				</tr>
+				<tr>
+					<td>28/07/2020</td>
+					<td>Où brancher un câble 3pins pour mon ventilateur RGB?</td>
+				</tr>
+				<tr>
+					<td>20/06/2020</td>
+					<td>Quelle carte-mère a les meilleures VRM?</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="historique-debut"><b>Ouverture site web</b></td>
+				</tr>
+			</tbody>
+		</table>
+		<br />
+		<div>
+			<img src="images/formulaire.png" alt="Image de formulaire">	
+		</div>
+		
+	</div>
+
+	<div class="clear"></div>	
+</div>
+
+<!-- Retour haut de page -->
+<div class="retourHdP">
+	<a href="#"><img src="images/fleche_haut.jpg" alt="Flèche retour haut de page" /></a>
+</div>
+
+</body>
+</html>

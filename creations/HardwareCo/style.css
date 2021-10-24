@@ -1,0 +1,544 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes defilement {
+  from {
+    margin-left: 100%;
+    width: 150%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 25%;
+  }
+}
+
+@keyframes slideinBottom {
+  from {
+    margin-top: 40%;
+    height: 200%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 50%;
+  }
+}
+
+
+
+
+body{
+	background-color: #202020;
+	font-size: 18px;
+	color: #DADADA;
+	font-family: Arial;
+}
+
+.page-actuelle{
+	text-decoration: none;
+	color: #E4E4E4;
+	box-shadow: inset 0 -5px 0 0 #733AC6;
+}
+
+/* HEADER */
+.header{
+	background: #0F0F0F;
+}
+
+.title-table{
+	width:100%;
+	padding: 10px;
+	border-spacing: 0px;
+}
+
+.logoUPEM img{
+	height: 37.5%;
+	float: left;
+}
+
+.title{
+	text-align: center;
+}
+
+.logoSite img{
+	height: 68%;
+	float: right;
+}
+
+.title a{
+	color: #C00;
+}
+
+.menu{
+	width: 100%; padding: 0px;
+	border: 2px solid #980000;
+	border-spacing: 5px;
+	border-radius: 22px;
+}
+
+.menu tr{
+	text-align: center;
+}
+
+.menu td:not(:first-child){
+	border-left: 2px solid #C00;
+}
+
+.menu a:not(.page-actuelle){
+	text-decoration: none;
+	color: #E4E4E4;
+	box-shadow: inset 0 -5px 0 0 #C00;
+}
+
+h2{
+	text-align:center;
+}
+
+.retourHdP{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+}
+
+.retourHdP img{
+	width: 75px;
+	border-radius: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #733AC6;
+}
+
+/* INDEX.HTML */
+/* MAIN CONTENT */
+.index .main-content{
+	line-height: 25px;
+	animation-delay: 0ms;
+	animation-duration: 2s;
+ 	animation-name: slidein;
+}
+
+.index .main-content a{
+	text-decoration: none;
+	color: #733AC6;
+}
+
+.index .validW3C{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	animation: 20s 2 alternate defilement;
+}
+
+/* FOOTER */
+.index footer{
+	padding: 7px;
+	background: #0F0F0F;
+	border: 2px solid #C00;
+	border-radius: 20px;
+}
+
+.index address{
+	padding-left: 10px;
+	color: #DADADA;
+}
+
+.index address a{
+	text-decoration: none;
+	color: #733AC6;
+}
+
+/* INTRO.HTML */
+/* MAIN CONTENT */
+.intro .content-title{
+	text-align: center;
+
+	animation-delay: 0ms;
+	animation-duration: 2s;
+ 	animation-name: slideinBottom;
+}
+
+.intro .content-title img{
+	width: 20%;
+}
+
+.intro .content-text{
+	animation-duration: 4s;
+ 	animation-name: slideinBottom;
+}
+
+.intro .content-text .contenu-partie{
+	border: 3px solid #C00;
+	border-radius: 25px;
+	background-color: #0F0F0F;
+	color: #E4E4E4;
+}
+
+.intro .content-text p{
+	margin: 1em;
+}
+
+.intro p{
+	line-height: 25px;
+}
+
+.intro .vieuxPC{
+	float: right;
+	width: 10%;
+}
+
+.intro .PCgamer{
+	float: right;
+	width: 12.5%;
+}
+
+.intro .lexique{
+	float: right;
+	width: 15%;
+}
+
+
+/* AUTEUR.HTML */
+/* MAIN CONTENT */
+.auteur{
+	text-align: center;
+}
+
+/*.auteur .description .containeur-question{
+	text-align: center;
+}*/
+
+.auteur .description .titre-question{
+	margin-bottom: 20px;
+	margin-top: 70px;
+	background-color: red;
+	display: block;
+	padding: 10px;
+	border: 3px solid #C00;
+	border-radius: 25px;
+	background-color: #0F0F0F;
+	color: #E4E4E4;
+	text-align: center;
+}
+
+.auteur .description .photo-moi{
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 10%;
+	border-radius: 8px;
+	border: 2px solid #980000;
+	background-color: #151515;
+
+	animation-delay: 0ms;
+	animation-duration: 3s;
+ 	animation-name: slideinBottom;
+}
+
+.auteur .description .photo-moi img{
+	width: 100%;
+	border-bottom: 2px solid #980000;
+}
+
+.auteur .description .photo-moi div{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.auteur hr{
+	margin-bottom: 2%;
+}
+
+.auteur p{
+	line-height: 25px;
+}
+
+.auteur .description .qualites-defauts{
+	border: 2px solid #980000;
+	padding: 0px;
+	border-spacing: 0px;
+	border-radius: 20px;
+}
+
+.auteur .description table{
+	background-color: #151515;
+	line-height: 30px;
+	margin-left: 40%;
+	width: 20%;
+}
+
+.auteur .description table li{
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.auteur .description .table-qualites{
+	border-right: 2px solid #980000;
+	border-top: 2px solid #980000;
+	padding-right: 15px;
+}
+
+.auteur .description .table-defauts{
+	padding-right: 10px;
+	border-top: 2px solid #980000;
+}
+
+.auteur .description .ninpo{
+	float: right;
+	border-radius: 8px;
+	border: 2px solid #980000;
+	background-color: #151515;
+}
+
+.auteur .description .ninpo img{
+	width: 300px;
+	border-bottom: 2px solid #980000;
+}
+
+.auteur .description .ninpo div{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.auteur .description a{
+	text-decoration: none;
+	color: #733AC6;
+}
+
+
+/* AUTEUR.HTML */
+/* MAIN CONTENT */
+.renseignements .formulaire{
+	width: 50%;
+	float: left;
+}
+
+.renseignements .formulaire .text-champ-requis{
+	font-size: 14px;
+}
+
+.renseignements .formulaire fieldset{
+	background: #151515;
+	border: 5px solid #C00;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.renseignements .formulaire fieldset legend{
+	background: #C00;
+	color: #D2D2D2;
+	padding: 5px;
+}
+
+.renseignements .formulaire fieldset textarea{
+	height: 200px;
+	width: 70%;
+	max-width: 90%;
+	max-height: 750px;
+}
+
+.renseignements .historique{
+	width: 50%;
+	float: right;
+	margin-top: 6%;
+	border-radius: 20px;
+}
+
+.renseignements .historique table{
+	width: 50%;
+	margin: auto;
+	padding: 0px;
+	border-left: 2px solid #980000;
+	border-right: 2px solid #980000;
+	border-spacing: 0px;
+	border-radius: 20px;
+	line-height: 30px;
+}
+
+.renseignements .historique td, th{
+	border: 1px solid #980000;
+	background-color: #151515;
+	text-align: center;
+}
+
+.renseignements .historique th{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.renseignements .historique .historique-debut{
+	text-align: center;
+	border-radius: 20px;
+}
+
+.renseignements .historique div{
+	text-align: center;
+}
+
+.renseignements .historique img{
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.renseignements .clear{
+	clear: both;
+}
+
+
+/* MENTIONS_LEGALES.HTML */
+/* MAIN CONTENT */
+.mentions_legales p{
+	line-height: 25px;
+}
+
+.mentions_legales .content .lien{
+	color: color: #733AC6;
+	text-decoration: none;
+}
+
+/* SUJET.HTML */
+/* MAIN CONTENT */
+.sujet p, ul{
+	line-height: 25px;
+}
+.sujet .sommaire{
+	font-size: 25px;
+	width: 30%;
+	background-color: #0F0F0F;
+	color: #E4E4E4;
+	border: 3px solid #C00;
+	border-radius: 20px;
+	margin-left: 35%;
+
+	animation-delay: 0ms;
+	animation-duration: 2s;
+ 	animation-name: slideinBottom;
+}
+
+.sujet .sommaire u{
+	margin-left: 42%;
+}
+
+.sujet .sommaire li{
+	border: 3px solid #C00;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #0F0F0F;
+	line-height: 40px;
+	margin-left: 16%;
+	margin-right: 20%;
+}
+
+.sujet .sommaire a{
+	text-decoration: none;
+	color: #E4E4E4;
+}
+
+.sujet .schema-mobo{
+	width: 40%;
+	border: 3px solid black;
+	border-radius: 15px;
+	margin-left: 30%;
+}
+
+.sujet .clear{
+	clear: both;
+	height: 180px;
+}
+
+.sujet hr{
+	border-color: black
+}
+
+.sujet .sous-titre{
+	line-height: 25px; margin-left: 50px;
+}
+
+.sujet .content .cadre-partie{
+	border: 3px solid #C00;
+	border-radius: 25px;
+	background-color: #0F0F0F;
+	color: #E4E4E4;
+}
+
+.sujet .content .contenu-partie{
+	margin: 1em;
+}
+
+.sujet .content .source{
+	text-align: right;
+	margin-right: 10px;
+}
+
+.sujet .content .source a{
+	text-decoration: none;
+	color: color: #733AC6;
+}
+
+.sujet .content .lien{
+	color: color: #733AC6;
+	text-decoration: none;
+}
+
+.sujet .content .image-mobo{
+	float: right;
+	width: 20%;
+}
+
+.sujet .content .image-format-mobo{
+	float: right;
+	margin-right: 200px;
+	width: 14%;
+}
+
+.sujet .content .image-processeur{
+	float: right;
+	width: 35%;
+}
+
+.sujet .content .image-ram{
+	float: right;
+	margin-right: 5%;
+	margin-top: 3%;
+	width: 28%;
+}
+
+.sujet .content .image-ram-latence{
+	margin-left: 25%;
+	width: 30%;
+}
+
+.sujet .content .image-gpu{
+	float: right;
+	margin-right: 5%;
+	width: 25%;
+}
+
+.sujet .content .image-disquedur{
+	float: right;
+	margin-right: 5%;
+	width: 30%;
+}
+
+.sujet .content .image-alimentation{
+	float: right;
+	margin-right: 5%;
+	width: 30%;
+}
+
+.sujet .content .image-alimentation-certif{
+	margin-left: 15%;
+}

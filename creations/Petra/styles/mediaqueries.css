@@ -1,0 +1,162 @@
+/* 	MEDIA QUERIES */
+@media screen and (min-width: 1301px) and (max-width: 1700px) {
+	nav > ul > li {
+		width: 190px;
+	}
+}
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+	nav > ul > li > a {
+		width: 74px;
+		margin: 0;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1000px) {
+	/* MENU NAVIGATION */
+	nav {
+		height: 5em;
+	}
+	nav i {
+		color: white;
+		font-size: 50px;
+		width: 2em; height: 100px;
+		display: flex !important;
+		justify-content: space-around;
+		align-items: center;
+		float: left;
+	}
+	nav .logo2 {
+		height: 100px;
+		display: flex;
+		align-items: center;
+		float: right;
+	}
+	nav ul {
+		display: none;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+		position: absolute;
+		top: 100px;
+		z-index: 100;
+	}
+	nav > li > a {
+		padding: 20px 0;
+	}
+	nav li > a {
+		font-size: 35px;
+		width: 300px;
+		margin: auto 35px;
+		padding: 15px 0;
+	}
+	nav > ul > li {
+		background-color: #222222;
+		display: block;
+	}
+	nav > ul > li div {
+		display: none;
+	}
+	nav .logo-langue {
+		display: block;
+		float: right;
+	}
+	nav .page-actuelle {
+		color: #B94403;
+		border-bottom: inherit;
+	}
+	.histoire:hover .deroulant,
+	.visiter:hover .deroulant,
+	.informations:hover .deroulant,
+	.deroulant:hover {
+		width: inherit;
+		display: none;
+		position: inherit;
+		top: inherit;
+		opacity: inherit;
+		z-index: inherit;
+	}
+	nav i:hover ~ ul,
+	nav ul:hover {
+		display: flex;
+	}
+
+	/* AJUSTEMENT DES MARGES GAUCHE / DROITE */
+	main {
+		grid-template-columns: 2% 96% 2% !important;
+	}
+	/* AJUSTEMENT DES SOUS-TITRES */
+	h3 {
+	    margin: 0 !important;
+	    padding-left: 20px !important;
+	    background-position-x: -50px !important;
+	}
+
+	/* STYLE PAGE INDEX */
+	.a2 #image1_1 {
+		margin: 0 auto;
+		float: inherit;
+		display: block;
+	}
+
+	/* STYLE PAGE HISTOIRE */
+	.container-h main .img6 {
+		margin: 0 auto;
+		float: inherit;
+		display: block;
+	}
+
+	/* STYLE PAGE A VISITER*/
+	.container-v main h3 {
+	    font-size: 45px;
+	}
+	.container-v main p {
+	    font-size: 35px;
+	    text-align: inherit;
+	    line-height: 35px;
+	}
+	.autre {
+		flex-direction: column;
+	}
+	.autre > div {
+		width: 100%;
+	}
+	.container-hotel > div:not(.etoiles),
+	.container-resto > div:not(.etoiles) {
+		margin-bottom: 50px;
+	}
+	.container-hotel h3,
+	.container-resto h3 {
+		margin-top: 15px !important;
+	}
+	.container-if h4 {
+		font-size: 35px;
+	}
+
+	/* STYLE PAGE INFOS */
+	.container-if .divers h3 {
+		font-size: 45px;
+		background-position: -52px -20px;
+		padding: 0;
+	}
+	.divers {
+		flex-direction: column;
+	}
+	.divers > div {
+		width: 100%;
+	}
+
+	/* STYLE PAGE A PROPOS */
+	.snap_credit {
+		flex-direction: column;
+	}
+	.snap_credit > div {
+		width: 100%;
+	}
+
+	.formulaire input,
+	.formulaire textarea {
+	    font-size: 26px;
+	    width: 90%;
+	    height: 50px;
+	}
+}

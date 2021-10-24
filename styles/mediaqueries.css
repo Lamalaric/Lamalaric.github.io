@@ -1,0 +1,198 @@
+/* MEDIAQUERIES */
+@media screen and (min-width: 1201px) and (max-width: 1573px) {
+	header h1::after {
+		top: 2.5em;
+	}
+}
+
+
+@media screen and (max-width: 1200px) {
+	header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	header h1:after {
+		top: 1.5em; left: 0; right: 0;
+	}
+	.navbar ul {
+		display: none;
+	}
+	.header-title {
+		width: auto;
+	}
+	.container-logo {
+		display: none;
+	}
+	.comp .competence,
+	.comp .outil {
+		width: 50%;
+		padding-left: 50px;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		display: none;
+	}
+	.crea .long-desc h4 {
+		font-size: 1.7em;
+	}
+	.creation {
+		order: unset;
+	}
+	.max-div {
+		order: unset;
+	}
+	.max-div .image-longdesc {
+		height: 80%;
+	}
+	.max-div .desc {
+		height: 20%;
+	}
+	.separateur {
+		display: none;
+	}
+	.intro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.about .img-and-div {
+		flex-direction: column;
+	}
+	.about .my-big-head,
+	.about .my-little-head {
+		align-self: center;
+		margin-bottom: 20px;
+	}
+	.contact .container > div {
+		width: 90%;
+	}
+}
+
+
+@media screen and (min-width: 800px) {
+	.logo {
+		grid-column: 2/3;
+	}
+	.navbar li {
+		margin-left: 3em;
+		margin-bottom: 0;
+	}
+	.navbar a {
+		position: relative;
+	}
+	nav a:hover::after {
+		transform: scale(1, 1);
+	}
+	.intro {
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h2 {
+		word-wrap: break-word;
+		margin-bottom: 50px;
+	}
+	p {
+		word-wrap: break-word;
+	}
+	section:not(:first-child) {
+		grid-template-columns: 2% 96% 2%;
+		padding-top: unset;
+	}
+	.intro {
+		margin-bottom: 75px;
+	}
+	.intro h1 {
+		padding-top: 100px;
+	}
+	.about img {
+		width: 225px;
+	}
+	.about p {
+		margin: 0 20px 30px 20px;
+	}
+	.comp .competence,
+	.comp .outil {
+		flex-direction: column;
+		width: 20%;
+		margin-top: 50px;
+		padding-left: 0;
+	}
+	.competence p,
+	.outil p {
+		text-align: center;
+		line-height: normal;
+		margin-left: 0;
+	}
+	.comp .competences,
+	.comp .outils {
+		margin-top: 0;
+	}
+	.competence img,
+	.outil img {
+		width: 50px;
+	}
+	.creation:not(.max-div) {
+		width: 300px;
+		height: 300px;
+	}
+	.max-div .desc-title {
+		font-size: 1.3em;
+		margin-bottom: 20px;
+		padding-top: 20px;
+	}
+	.contact form > *:not(label) {
+		width: 80%;
+		align-self: center;
+	}
+	.contact input[type="submit"] {
+		width: 100px;
+	}
+	.contact .reseaux i {
+		font-size: 2.5em;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	.footer p {
+		margin: 10px 0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.comp .competence,
+	.comp .outil {
+		width: 33%;
+	}
+	.crea1 .desc,
+	.crea4 .desc,
+	.crea6 .desc {
+		height: 35%;
+	}
+	.max-div .desc {
+		height: 20%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header-title {
+		display: none;
+	}
+	.container-logo {
+		display: block;
+	}
+	.comp .competence,
+	.comp .outil {
+		width: 50%;
+		margin: 50px auto 0 auto;
+	}
+	.contact .reseaux i {
+		font-size: 2em;
+		margin: 0;
+	}
+}
