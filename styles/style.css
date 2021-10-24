@@ -186,6 +186,9 @@ a {
 	color: var(--clr-text);
 	text-decoration: none;
 }
+.dead-link {
+	cursor: not-allowed;
+}
 
 
 	/* INTRODUCTION */
