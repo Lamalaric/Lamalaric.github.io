@@ -425,7 +425,7 @@ a {
 .creation .long-desc a {
 	color: var(--clr-accent-blue);
 	font-size: 1.2em;
-	width: 200px;
+	width: 300px;
 	display: block;
 	margin: 25px 0 10px 0;
 	transition-duration: .3s;
